@@ -17,6 +17,23 @@ if($_POST){
     echo "resultado: ".$resta."<br/>";
     echo "resultado: ".$division."<br/>";
     echo "resultado: ".$multiplicacion."<br/>";
+
+ /*   if($valorA==$valorB){
+        echo"el valor de A es igual que el valor de B ,";
+        //condicionales anidados
+        if ($valorA==4){
+            echo 'el valor es 4';
+        }
+        if($valorA==5){
+            echo'el valor es 5';
+        }
+    }
+    */
+}
+
+//condicional compacto (sin anidar)
+if (($valorA==$valorB) && ($valorA==4)){
+    echo'el valor de A es igual a B y es 4';
 }
 ?>
 <!DOCTYPE html>
