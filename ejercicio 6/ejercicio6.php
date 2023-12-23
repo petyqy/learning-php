@@ -1,4 +1,5 @@
 <?php
+    //tipos de variables
     $edad=18;//primer valor de la variable
 
     echo $edad."<br/>";
