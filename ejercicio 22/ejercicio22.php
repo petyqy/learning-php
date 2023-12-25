@@ -1,6 +1,6 @@
 <?php
-    $frutas=array('fresa','pera','manzana');
+    //cambiando el indice manualmente
+    $frutas=array('f'=>'fresa','m'=>'manzana','p'=>'pera');
     print_r($frutas);
-    //se indica el indice al que se quiere acceder
-    echo $frutas[2];
+    echo $frutas['p'];
 ?>
