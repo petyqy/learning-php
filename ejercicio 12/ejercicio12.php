@@ -1,6 +1,7 @@
 <?php
 if($_POST){
     $boton=$_POST['sw'];
+    //evalua y compara el valor del input
     switch($boton){
         case 1:
             echo "se ha presionado el boton 1";
