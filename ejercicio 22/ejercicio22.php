@@ -1,10 +1,7 @@
 <?php
-    //cambiando el indice manualmente
-    $frutas=array('f'=>'fresa','m'=>'manzana','p'=>'pera');
+    //funciones de arrays
+    $frutas=['Fresa','Pera','Mazana'];
+    //agregar elementos con funcion:
+    array_push($frutas,'Uva');
     print_r($frutas);
-    echo $frutas['m'].'<br/>';
-
-    foreach($frutas as $indice=>&$valor){
-       echo  'El valor '.$valor.' Tiene el indice '.$indice.'<br/>';
-    }
 ?>
